@@ -87,7 +87,7 @@ In order for MineCore to work, it must be placed in the **plugins folder**.
 <dependencies>
   <dependency>
     <groupId>kiinse.me.plugins.minecore</groupId>
-    <artifactId>lib</artifactId>
+    <artifactId>MineCore</artifactId>
     <version>ENTER_VERSION_HERE</version>
     <scope>provided</scope>
   </dependency>
@@ -104,7 +104,7 @@ repositories {
 }
 
 dependencies {
-    compileOnly 'kiinse.me.plugins.minecore:lib:ENTER_VERSION_HERE'
+    compileOnly 'kiinse.me.plugins.minecore:MineCore:ENTER_VERSION_HERE'
 }
 ```
 
