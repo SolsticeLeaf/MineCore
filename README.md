@@ -72,7 +72,7 @@ page.</a><br>
 
 ## Installation
 
-In order for MineCore to work, it must be placed in the **plugins' folder**.
+In order for MineCore to work, it must be placed in the **plugins folder**.
 
 ### Maven
 
@@ -87,7 +87,7 @@ In order for MineCore to work, it must be placed in the **plugins' folder**.
 <dependencies>
   <dependency>
     <groupId>kiinse.me.plugins.minecore</groupId>
-    <artifactId>minecore-core</artifactId>
+    <artifactId>minecore-lib</artifactId>
     <version>ENTER_VERSION_HERE</version>
     <scope>provided</scope>
   </dependency>
@@ -97,14 +97,14 @@ In order for MineCore to work, it must be placed in the **plugins' folder**.
 ### Gradle
 
 ```groovy
- repositories {
+repositories {
     maven {
         url "https://repo.kiinse.me/releases"
     }
 }
 
 dependencies {
-    compileOnly 'kiinse.me.plugins.minecore:minecore-core:ENTER_VERSION_HERE'
+    compileOnly 'kiinse.me.plugins.minecore:minecore-lib:ENTER_VERSION_HERE'
 }
 ```
 
