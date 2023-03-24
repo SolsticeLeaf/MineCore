@@ -10,8 +10,8 @@
     <img src="https://app.codacy.com/project/badge/Grade/04669f7c982b4ec8ba4783493dfb1ca9" alt="codacy"/>
   </a>
 
-  <a href="https://repo.kiinse.me/#/releases/kiinse/plugins/minecore">
-    <img src="https://repo.kiinse.me/api/badge/latest/releases/kiinse/plugins/minecore/MineCore?color=40c14a&name=Reposilite&prefix=v" alt="reposilite"/>
+  <a href="https://repo.kiinse.me/#/releases/kiinse/me/plugins/minecore">
+    <img src="https://repo.kiinse.me/api/badge/latest/releases/kiinse/me/plugins/minecore/MineCore?color=40c14a&name=Reposilite&prefix=v" alt="reposilite"/>
   </a>
   <a href="https://github.com/kiinse/MineCore/releases">
     <img src="https://img.shields.io/github/v/release/kiinse/MineCore?include_prereleases&style=flat-square" alt="release">
