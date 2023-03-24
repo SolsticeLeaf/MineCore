@@ -42,17 +42,17 @@
   <ins>English</ins> • <a href="https://github.com/kiinse/MineCore/blob/master/.github/Rus-README.md">Русский</a>
 </p>
 
-## Donations
+## 🍩Donations
 
-If you want to support the project, then
+---> If you want to support the project, then
 star this repository and tell your friends about MineCore =3
 
-## Support
+## ❓Support
 
-Join the [Discord](https://discord.gg/ec7y5NY82b) if you have any questions.
+---> Join the [Discord](https://discord.gg/ec7y5NY82b) if you have any questions.
 Please **don't** open an issue just for the sake of questions.
 
-## Features
+## ➕Features
 
 - Simple and convenient plugin localization system
 - Easily create interactive text in messages
@@ -65,14 +65,14 @@ Please **don't** open an issue just for the sake of questions.
 - Enabling, disabling and reloading plugins that use this library
 - And much more
 
-## Download
+## ⬇️Download
 
-The latest version can be downloaded on the <a href="https://github.com/kiinse/MineCore/releases">releases
+---> The latest version can be downloaded on the <a href="https://github.com/kiinse/MineCore/releases">releases
 page.</a><br>
 
-## Installation
+## 📲Installation
 
-In order for MineCore to work, it must be placed in the **plugins folder**.
+---> In order for MineCore to work, it must be placed in the **plugins folder**.
 
 ### Maven
 
@@ -108,7 +108,7 @@ dependencies {
 }
 ```
 
-## Usage
+## 📖Usage
 
 <b>For all examples and more detailed explanation check out the [Wiki](https://github.com/kiinse/MineCore/wiki).</b>
 
@@ -116,7 +116,7 @@ dependencies {
 
 <b>Since all examples are on WIKI, I will give a small example of working with messages here.</b>
 
-In the resources folder create a "messages" folder, where also create several localization files. For example en.json
+---> In the resources folder create a "messages" folder, where also create several localization files. For example en.json
 and ru.json. The result is the following structure:
 
 ```txt
@@ -127,10 +127,10 @@ and ru.json. The result is the following structure:
         └── ru.json
 ```
 
-After running the plugin containing the main class, which was inherited from "MineCorePlugin" - These files will
+---> After running the plugin containing the main class, which was inherited from "MineCorePlugin" - These files will
 appear in the plugin folder on the server.
 
-Sending text from these files takes just two lines:
+---> Sending text from these files takes just two lines:
 
 ```java
 public final class TestPlugin extends MineCorePlugin { // Main class
@@ -154,7 +154,7 @@ public final class TestPlugin extends MineCorePlugin { // Main class
 
 ```
 
-Contents of message files:
+---> Contents of message files:
 
 File "en.json":
 
@@ -174,7 +174,7 @@ File "ru.json":
 }
 ```
 
-## Commands
+## 💬Commands
 
 | Command                     | Permission          | Description                                   |
 |-----------------------------|---------------------|-----------------------------------------------|
@@ -189,7 +189,7 @@ File "ru.json":
 | /minecore enable [plugin]  | minecore.enable    | Enabling a plugin using MineCore          |
 | /statistic                  | minecore.statistic | View statistics on the number of killed mobs. |
 
-## Placeholders
+## 🪧Placeholders
 
 | Placeholder                                             | Description                                            |
 |---------------------------------------------------------|--------------------------------------------------------|
@@ -197,7 +197,7 @@ File "ru.json":
 | %locale_player%                                         | Language display                                       |
 | %locale_list%                                           | Displaying a list of languages available for selection |
 
-## Config
+## 📃Config
 
 ```yaml
 playerLocale.default: en # The default language if the player's language is not available on the server, or it has not been defined
