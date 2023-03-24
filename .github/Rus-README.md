@@ -87,7 +87,7 @@ MineCore друзьям =3
 <dependencies>
   <dependency>
     <groupId>kiinse.me.plugins.minecore</groupId>
-    <artifactId>minecore-lib</artifactId>
+    <artifactId>lib</artifactId>
     <version>ЗДЕСЬ_УКАЗАТЬ_ВЕРСИЮ</version>
     <scope>provided</scope>
   </dependency>
@@ -104,7 +104,7 @@ repositories {
 }
 
 dependencies {
-    compileOnly 'kiinse.me.plugins.minecore:minecore-lib:ЗДЕСЬ_УКАЗАТЬ_ВЕРСИЮ'
+    compileOnly 'kiinse.me.plugins.minecore:lib:ЗДЕСЬ_УКАЗАТЬ_ВЕРСИЮ'
 }
 ```
 
