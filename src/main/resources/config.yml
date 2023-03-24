@@ -1,0 +1,6 @@
+locale.default: en # The default language if the player's language is not available on the server, or it has not been defined
+
+first.join.message: true # A message when the player enters, telling about the definition of the player's language and the possibility of changing this language.
+actionbar.indicators: true # Indicators above the player's toolbar. This function is needed for some plugins that use MineCore. Requires PlaceHolderAPI to work.
+
+config.version: 3 # DO NOT TOUCH THIS PLEASE =)

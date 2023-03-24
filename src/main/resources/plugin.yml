@@ -1,0 +1,102 @@
+name: MineCore
+version: '${version}'
+main: kiinse.me.plugins.minecore.MineCore
+api-version: 1.19
+prefix: MineCore
+softdepend: [ PlaceholderAPI ]
+authors: [ kiinse ]
+description: Plugins library
+website: https://kiinse.me
+commands:
+  locale:
+    description: Return your locale
+    permission: locale.status
+    usage: /<command>
+  locale change:
+    description: Change your locale by GUI
+    permission: locale.change
+    usage: /<command> change
+  locale help:
+    description: Help command
+    permission: locale.help
+    usage: /<command> [help]
+  locale set:
+    description: Sets locale
+    permission: locale.change
+    usage: /<command> [set] %locale%
+  locale list:
+    description: Gets a list of localizations
+    permission: locale.list
+    usage: /<command> [list]
+  locale get:
+    description: Gets player locale
+    permission: locale.get
+    usage: /<command> [get] %player%
+  minecore:
+    description: minecore command
+    permission: minecore.reload
+    usage: /<command>
+  minecore reload:
+    description: Reload plugins
+    permission: minecore.reload
+    usage: /<command> [reload] %plugin%
+  minecore enable:
+    description: Enable plugins
+    permission: minecore.enable
+    usage: /<command> [enable] %plugin%
+  minecore disable:
+    description: Disable plugins
+    permission: minecore.disable
+    usage: /<command> [disable] %plugin%
+  minecore test:
+    description: Just test command
+    permission: minecore.test
+    usage: /<command> test
+  statistic:
+    description: Return your statistic
+    permission: minecore.statistic
+    usage: /<command>
+permissions:
+  minecore.statistic:
+    description: Allows /statistic command
+    default: op
+  minecore.reload:
+    description: Allows /minecore reload %plugin% command
+    default: op
+  minecore.enable:
+    description: Allows /minecore enable %plugin% command
+    default: op
+  minecore.disable:
+    description: Allows /minecore disable %plugin% command
+    default: op
+  minecore.test:
+    description: Allows /minecore test command
+    default: op
+  locale.get:
+    description: Allows /locale get %player% command
+    default: op
+  locale.change:
+    description: Allows /locale command
+    default: op
+  locale.list:
+    description: Allows /locale list command
+    default: op
+  locale.help:
+    description: Allows /locale help command
+    default: op
+  locale.*:
+    description: All perms
+    default: op
+    children:
+      locale.list: true
+      locale.change: true
+      locale.help: true
+      locale.get: true
+  minecore.*:
+    description: All perms
+    default: op
+    children:
+      minecore.statistic: true
+      minecore.reload: true
+      minecore.enable: true
+      minecore.disable: true
