@@ -21,6 +21,7 @@
 // SOFTWARE.
 package kiinse.me.plugins.minecore.lib.gui
 
+import kiinse.me.plugins.minecore.api.MineCorePlugin
 import kiinse.me.plugins.minecore.api.files.locale.MineLocale
 import kiinse.me.plugins.minecore.api.gui.GuiAction
 import kiinse.me.plugins.minecore.api.gui.GuiItem

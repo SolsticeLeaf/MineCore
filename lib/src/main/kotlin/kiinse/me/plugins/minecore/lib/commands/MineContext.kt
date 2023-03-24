@@ -4,7 +4,7 @@ import kiinse.me.plugins.minecore.api.commands.CommandContext
 import kiinse.me.plugins.minecore.api.files.locale.MineLocale
 import org.bukkit.command.CommandSender
 
-class MineContext(override val sender: CommandSender, val senderLocale: MineLocale, override val args: Array<String>) : CommandContext {
+class MineContext(override val sender: CommandSender, override val senderLocale: MineLocale, override val args: Array<String>) : CommandContext {
 
     override fun equals(other: Any?): Boolean {
         return other != null && other is CommandContext && other.hashCode() == hashCode()

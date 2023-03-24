@@ -23,6 +23,7 @@ package kiinse.me.plugins.minecore.lib.utilities
 
 import com.mojang.authlib.GameProfile
 import com.mojang.authlib.properties.Property
+import kiinse.me.plugins.minecore.api.MineCorePlugin
 import kiinse.me.plugins.minecore.api.utilities.ItemStackUtils
 import org.bukkit.Material
 import org.bukkit.NamespacedKey
