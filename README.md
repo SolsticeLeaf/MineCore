@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img width=250 height=250 src="https://raw.githubusercontent.com/kiinse/MineCore/master/.github/img/logo.png"  alt=""/>
+  <img width=250 height=250 src="https://raw.githubusercontent.com/kiinse/MineCore/master/.github/logo.png"  alt=""/>
   <br>☕MineCore<br>
 </h1>
 
